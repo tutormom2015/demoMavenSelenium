@@ -1,0 +1,2 @@
+url of the git repository  : https://github.com/tutormom2015/demoMavenSelenium.git
+

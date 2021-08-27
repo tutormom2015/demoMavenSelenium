@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite   name="SuiteDemoMaven_crossBrowser">
+	<listeners>
+		<listener class-name="demomavenutilities.ReportExtentReport"/>
+	</listeners>
+  
+   <test  name="TestDemoMaven_chrome">
+  <parameter name="browser" value="chrome"> </parameter>
+    <classes>
+      <class name="demomaventestcases.TC_loginTest_001"/>
+<!--  	  <class name="demomaventestcases.TC_loginTest_DDT_002"/> -->
+    </classes>
+  </test> 
+  
+
+<!--  
+  <test  name="TestDemoMaven_firefox">
+  <parameter name="browser" value="firefox"> </parameter>
+    <classes>
+      <class name="demomaventestcases.TC_loginTest_001"/>
+    </classes>
+  </test> 
+
+  <test  name="TestDemoMaven_opera">
+  <parameter name="browser" value="opera"> </parameter>
+    <classes>
+      <class name="demomaventestcases.TC_loginTest_001"/>
+    </classes>
+  </test> 
+
+
+  <test  name="TestDemoMaven_ie">
+  <parameter name="browser" value="ie"> </parameter>
+    <classes>
+    </classes>
+  </test> 
+
+-->
+
+
+
+</suite> <!-- SuiteDemoMaven -->
